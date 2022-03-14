@@ -10,3 +10,5 @@ El proyecto está dividido en los siguientes módulos:
 - Módulo de Control con PLC
 - Módulo de Comunicaciones Industriales
 - Módulo de SCADA
+
+Página web del proyecto del curso: https://unal-apm-a3j-autoseats.github.io/Web-A3J-AUTOSEATS/
