@@ -1,0 +1,500 @@
+﻿STEP to UG
+! INFO-     NX STEP AP214 - V1899
+! INFO-      
+! INFO-     Start of Translation: 5-JUN-2022  8:13:49 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Celda_Extruccion_PP.step
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        C:/Users/jesus/OneDrive - Universidad Nacional de Colombia/Documentos Universidad/Semestre 11/APM/Proyecto/CADs/Archivos PU injection machine/Celda_Extruccion_PP.step
+! SUMMARY-  Date             2022-06-05T20:08:24-05:00
+! SUMMARY-  Author           Unknown
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v19
+! SUMMARY-  Orig_System      Autodesk Translation Framework v11.7.0.108
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:  23863
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:  38718
+! SUMMARY-  b_spline_curve_with_knots ..................................:   9546
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    846
+! SUMMARY-  b_spline_surface_with_knots ................................:   1970
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:    142
+! SUMMARY-  brep_with_voids ............................................:      7
+! SUMMARY-  cartesian_point ............................................: 1147214
+! SUMMARY-  circle .....................................................:  15944
+! SUMMARY-  closed_shell ...............................................:    334
+! SUMMARY-  conical_surface ............................................:   1318
+! SUMMARY-  context_dependent_shape_representation .....................:     72
+! SUMMARY-  cylindrical_surface ........................................:   7344
+! SUMMARY-  direction ..................................................: 115215
+! SUMMARY-  edge_curve .................................................:  65025
+! SUMMARY-  edge_loop ..................................................:  26042
+! SUMMARY-  ellipse ....................................................:    910
+! SUMMARY-  face_bound .................................................:   2179
+! SUMMARY-  face_outer_bound ...........................................:  23863
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     42
+! SUMMARY-  item_defined_transformation ................................:     72
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:  37779
+! SUMMARY-  manifold_solid_brep ........................................:    223
+! SUMMARY-  next_assembly_usage_occurrence .............................:     72
+! SUMMARY-  open_shell .................................................:      1
+! SUMMARY-  oriented_closed_shell ......................................:    104
+! SUMMARY-  oriented_edge ..............................................: 130046
+! SUMMARY-  plane ......................................................:  12194
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:     41
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     41
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:     41
+! SUMMARY-  product_definition_shape ...................................:    113
+! SUMMARY-  product_related_product_category ...........................:     41
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     72
+! SUMMARY-  shape_representation .......................................:     41
+! SUMMARY-  shell_based_surface_model ..................................:      1
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  spherical_surface ..........................................:    354
+! SUMMARY-  toroidal_surface ...........................................:    541
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     42
+! SUMMARY-  vector .....................................................:  37779
+! SUMMARY-  vertex_point ...............................................:  42161
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                        1742359
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 5-JUN-2022 8:14:00 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:28 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\PM2ptx2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:32 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente37
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:32 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente36
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:32 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente35
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:32 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente34
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:33 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente33
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:33 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente32
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:33 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente31
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:33 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente30
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:33 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente29
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente28
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente27
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente26
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente25
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente24
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente23
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente22
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente21
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:34 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente20
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:35 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente19
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:35 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente18
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:35 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente17
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:35 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente16
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:35 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente15
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:35 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente14
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:35 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente13
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:36 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente12
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:36 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente11
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:36 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente10
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:36 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente9
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:36 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\RodBaseMaq
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:36 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Rodillo
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:37 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\RodBase
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:37 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\RodSop
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:17:37 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Parte fija_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:    75
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             75
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:18:23 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Componente8
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:18:24 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Parte movil1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:   121
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            121
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:18:29 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Molde_movil
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:18:29 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Parte fija
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    67
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             67
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:18:30 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Tornillo_inyector
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 5-JUN-2022  8:18:30 PM
+! INFO-     Filing Part ..: C:\Users\jesus\OneDrive - Universidad Nacional de Colombia\Documentos Universidad\Semestre 11\APM\Proyecto\Digital Factory - Celda Extrucción PP\Celda_Extruccion_PP.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! INFO-      
+! INFO-     Total number of solids input for this translation       :       230
+! INFO-      
+! INFO-     Number of solids created without body validation faults :       230
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 5-JUN-2022  8:18:33 PM
+! INFO-      
