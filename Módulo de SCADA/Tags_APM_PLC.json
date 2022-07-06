@@ -1,0 +1,680 @@
+{
+  "name": "APM_Proyecto",
+  "tagType": "Folder",
+  "tags": [
+    {
+      "name": "Celda_Soldadura",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Sensor_Entrada_Aux",
+          "dataType": "Boolean",
+          "name": "Soldadura_Sensor_Entrada_Aux",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Gen_Marco_Salida",
+          "dataType": "Boolean",
+          "name": "Soldadura_Gen_Marco_Salida",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Gen_Material_Entrada",
+          "dataType": "Boolean",
+          "name": "Soldadura_Gen_Material_Entrada",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Eli_Material_Entrada",
+          "dataType": "Boolean",
+          "name": "Soldadura_Eli_Material_Entrada",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Giro_180_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Giro_180_Listo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Banda_Salida",
+          "dataType": "Boolean",
+          "name": "Soldadura_Banda_Salida",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "eventScripts": [
+            {
+              "eventid": "valueChanged",
+              "script": "\tsystem.tag.write(\"[default]APM_Proyecto/Celda_Soldadura/Soldadura_Start_Operario 1\",currentValue)"
+            }
+          ],
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Start_Operario",
+          "dataType": "Boolean",
+          "name": "Soldadura_Start_Operario",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Matriz",
+          "dataType": "Int4",
+          "name": "Soldadura_Matriz",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Temp_Soldadura",
+          "dataType": "Boolean",
+          "name": "Temp_Soldadura",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Giro_0_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Giro_0_Listo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Active_Soldadura",
+          "dataType": "Boolean",
+          "name": "Active_Soldadura",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Sensor_Entrada",
+          "dataType": "Boolean",
+          "name": "Soldadura_Sensor_Entrada",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Banda_Entrada",
+          "dataType": "Boolean",
+          "name": "Soldadura_Banda_Entrada",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "eventScripts": [
+            {
+              "eventid": "valueChanged",
+              "script": "\tsystem.tag.write(\"[default]APM_Proyecto/Celda_Soldadura/Soldadura_Giro_Listo 1\",currentValue)"
+            }
+          ],
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Giro_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Giro_Listo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Stop_SCADA_Soldadura",
+          "dataType": "Boolean",
+          "name": "Stop_SCADA_Soldadura",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "eventScripts": [
+            {
+              "eventid": "valueChanged",
+              "script": "\tsystem.tag.write(\"[default]APM_Proyecto/Celda_Soldadura/Soldadura_Primera_Listo\",currentValue)"
+            }
+          ],
+          "opcItemPath": "ABB_APM.RAPID.T_ROB1.Module1.Soldadura_Primera_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Primera_Listo 1",
+          "tagType": "AtomicTag",
+          "opcServer": "ABB"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Primera_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Primera_Listo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Estado_Soldadura",
+          "dataType": "Int4",
+          "name": "Estado_Soldadura",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Eli_Marco_Salida",
+          "dataType": "Boolean",
+          "name": "Soldadura_Eli_Marco_Salida",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "eventScripts": [
+            {
+              "eventid": "valueChanged",
+              "script": "\tsystem.tag.write(\"[default]APM_Proyecto/Celda_Soldadura/Soldadura_Segunda_Listo\",currentValue)"
+            }
+          ],
+          "opcItemPath": "ABB_APM.RAPID.T_ROB1.Module1.Soldadura_Segunda_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Segunda_Listo 1",
+          "tagType": "AtomicTag",
+          "opcServer": "ABB"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Mantenimiento_Soldadura",
+          "dataType": "Boolean",
+          "name": "Mantenimiento_Soldadura",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Sensor_Salida",
+          "dataType": "Boolean",
+          "name": "Soldadura_Sensor_Salida",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Start_SCADA_Soldadura",
+          "dataType": "Boolean",
+          "name": "Start_SCADA_Soldadura",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Emer_Stop_SCADA_Soldadura",
+          "dataType": "Boolean",
+          "name": "Emer_Stop_SCADA_Soldadura",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ABB_APM.RAPID.T_ROB1.Module1.joints",
+          "dataType": "String",
+          "name": "joints",
+          "tagType": "AtomicTag",
+          "opcServer": "ABB"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ABB_APM.RAPID.T_ROB1.Module1.Soldadura_Start_Operario",
+          "dataType": "Boolean",
+          "name": "Soldadura_Start_Operario 1",
+          "tagType": "AtomicTag",
+          "opcServer": "ABB"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ABB_APM.RAPID.T_ROB1.Module1.Soldadura_Giro_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Giro_Listo 1",
+          "tagType": "AtomicTag",
+          "opcServer": "ABB"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Segunda_Listo",
+          "dataType": "Boolean",
+          "name": "Soldadura_Segunda_Listo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Sensor_Pos_Matriz",
+          "dataType": "Int4",
+          "name": "Soldadura_Sensor_Pos_Matriz",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Soldadura_Sensor_Salida_Aux",
+          "dataType": "Boolean",
+          "name": "Soldadura_Sensor_Salida_Aux",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        }
+      ]
+    },
+    {
+      "valueSource": "opc",
+      "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Producto",
+      "dataType": "Int4",
+      "name": "Producto",
+      "tagType": "AtomicTag",
+      "opcServer": "Ignition OPC UA Server"
+    },
+    {
+      "valueSource": "opc",
+      "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Control_Disp_Fisicos",
+      "dataType": "Int4",
+      "name": "Control_Disp_Fisicos",
+      "tagType": "AtomicTag",
+      "opcServer": "Ignition OPC UA Server"
+    },
+    {
+      "name": "Celda_Extruccion_PP",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Banda",
+          "dataType": "Boolean",
+          "name": "PP_Banda",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 5,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Estado_PP",
+          "tagType": "AtomicTag",
+          "dataType": "Int4",
+          "historyProvider": "Sample_SQLite_Database",
+          "historyMaxAgeUnits": "MIN",
+          "name": "Estado_PP",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Temp_PP",
+          "dataType": "Int2",
+          "alarms": [
+            {
+              "name": "OFF_PP",
+              "label": "Celda de inyección PP Desactivada",
+              "displayPath": "Celda_Extruccion_PP"
+            },
+            {
+              "setpointA": 1.0,
+              "name": "ON_PP",
+              "label": "Celda de inyección PP Activada",
+              "priority": "Medium",
+              "displayPath": "Celda_Extruccion_PP"
+            }
+          ],
+          "name": "Temp_PP",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Sensor_Banda_Salida",
+          "dataType": "Boolean",
+          "name": "PP_Sensor_Banda_Salida",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 5,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Active_PP",
+          "alarms": [
+            {
+              "name": "Desactive_Celda",
+              "label": "Producción en Celda Inyección PP Habilitada",
+              "priority": "Medium",
+              "displayPath": "Celda_Extruccion_PP"
+            },
+            {
+              "setpointA": 1.0,
+              "name": "Active_Celda",
+              "label": "Produccion en Celda Inyección PP Habilitada",
+              "priority": "Medium",
+              "displayPath": "Celda_Extruccion_PP"
+            }
+          ],
+          "tagType": "AtomicTag",
+          "dataType": "Boolean",
+          "historyProvider": "Sample_SQLite_Database",
+          "historyMaxAgeUnits": "MIN",
+          "name": "Active_PP",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Sensor_Molde_Cerrado",
+          "dataType": "Boolean",
+          "name": "PP_Sensor_Molde_Cerrado",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Parar_Ciclo_PP",
+          "dataType": "Boolean",
+          "name": "Parar_Ciclo_PP",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Mantenimiento_PP",
+          "dataType": "Boolean",
+          "name": "Mantenimiento_PP",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Sensor_Molde_Abierto",
+          "dataType": "Boolean",
+          "name": "PP_Sensor_Molde_Abierto",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Start_SCADA_PP",
+          "dataType": "Boolean",
+          "name": "Start_SCADA_PP",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Emer_Stop_SCADA_PP",
+          "dataType": "Boolean",
+          "name": "Emer_Stop_SCADA_PP",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Mover_Molde",
+          "dataType": "Boolean",
+          "name": "PP_Mover_Molde",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Gen_Reposabrazo",
+          "dataType": "Boolean",
+          "name": "PP_Gen_Reposabrazo",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 5,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Pos_Molde",
+          "tagType": "AtomicTag",
+          "dataType": "Float8",
+          "historyProvider": "Sample_SQLite_Database",
+          "historyMaxAgeUnits": "MIN",
+          "name": "PP_Pos_Molde",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Stop_SCADA_PP",
+          "dataType": "Boolean",
+          "name": "Stop_SCADA_PP",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Resistencia",
+          "dataType": "Boolean",
+          "name": "PP_Resistencia",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PP_Tornillo_Ext",
+          "dataType": "Int4",
+          "name": "PP_Tornillo_Ext",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        }
+      ]
+    },
+    {
+      "name": "Celda_Inyeccion_PU",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 2,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Sensor_Pos_R1",
+          "tagType": "AtomicTag",
+          "dataType": "Float8",
+          "historyProvider": "Sample_SQLite_Database",
+          "historyMaxAgeUnits": "MIN",
+          "name": "PU_Sensor_Pos_R1",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 2,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Sensor_Pos_R3",
+          "tagType": "AtomicTag",
+          "dataType": "Float8",
+          "historyProvider": "Sample_SQLite_Database",
+          "historyMaxAgeUnits": "MIN",
+          "name": "PU_Sensor_Pos_R3",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Start_SCADA_PU",
+          "dataType": "Boolean",
+          "name": "Start_SCADA_PU",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Act_Inyector",
+          "dataType": "Boolean",
+          "name": "PU_Act_Inyector",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Sensor_Pos_MC_2",
+          "dataType": "Float8",
+          "name": "PU_Sensor_Pos_MC_2",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Stop_SCADA_PU",
+          "dataType": "Boolean",
+          "name": "Stop_SCADA_PU",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Act_Eyector",
+          "dataType": "Boolean",
+          "name": "PU_Act_Eyector",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Sensor_Pos_ME_2",
+          "dataType": "Float8",
+          "name": "PU_Sensor_Pos_ME_2",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Sensor_Pos_MC_1",
+          "dataType": "Float8",
+          "name": "PU_Sensor_Pos_MC_1",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 2,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Sensor_Pos_R2",
+          "tagType": "AtomicTag",
+          "dataType": "Float8",
+          "historyProvider": "Sample_SQLite_Database",
+          "historyMaxAgeUnits": "MIN",
+          "name": "PU_Sensor_Pos_R2",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]PU_Sensor_Pos_ME_1",
+          "dataType": "Float8",
+          "name": "PU_Sensor_Pos_ME_1",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 2,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Temp_PU",
+          "alarms": [
+            {
+              "setpointA": 1.0,
+              "name": "PU_ON",
+              "label": "Produccion celda inyeccion PU - Activada",
+              "priority": "Medium",
+              "displayPath": "Celda_Inyeccion_PU"
+            },
+            {
+              "name": "PU_OFF",
+              "label": "Produccion celda inyeccion PU - Desactivada",
+              "displayPath": "Celda_Inyeccion_PU",
+              "priority": "Medium"
+            }
+          ],
+          "tagType": "AtomicTag",
+          "dataType": "Boolean",
+          "historyMaxAgeUnits": "MIN",
+          "name": "Temp_PU",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Emer_Stop_SCADA_PU",
+          "dataType": "Boolean",
+          "name": "Emer_Stop_SCADA_PU",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Mantenimiento_PU",
+          "dataType": "Boolean",
+          "name": "Mantenimiento_PU",
+          "tagType": "AtomicTag",
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyTimeDeadband": 2,
+          "historyMaxAge": 2,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Active_PU",
+          "alarms": [
+            {
+              "name": "Desactive_PU",
+              "label": "Produccion celda inyeccion PU - Deshabilitada",
+              "priority": "Medium",
+              "displayPath": "Celda_Inyeccion_PU"
+            },
+            {
+              "setpointA": 1.0,
+              "name": "Active_PU",
+              "label": "Produccion celda inyeccion PU - Habilitada",
+              "priority": "Medium",
+              "displayPath": "Celda_Inyeccion_PU"
+            }
+          ],
+          "tagType": "AtomicTag",
+          "dataType": "Boolean",
+          "historyMaxAgeUnits": "MIN",
+          "name": "Active_PU",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        },
+        {
+          "valueSource": "opc",
+          "historyMaxAge": 2,
+          "opcItemPath": "ns\u003d1;s\u003d[PLC_UNAL_249]Estado_PU",
+          "tagType": "AtomicTag",
+          "dataType": "Int4",
+          "historyProvider": "Sample_SQLite_Database",
+          "historyMaxAgeUnits": "MIN",
+          "name": "Estado_PU",
+          "historyEnabled": true,
+          "sampleMode": "Periodic",
+          "historySampleRate": 1,
+          "opcServer": "Ignition OPC UA Server"
+        }
+      ]
+    }
+  ]
+}
